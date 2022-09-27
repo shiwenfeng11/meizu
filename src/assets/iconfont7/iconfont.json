@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4520181",
+      "name": "完成",
+      "font_class": "wancheng",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "8288849",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e84f",
+      "unicode_decimal": 59471
+    },
+    {
+      "icon_id": "17204027",
+      "name": "减号",
+      "font_class": "xianxingtubiaozhizuomoban-02",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

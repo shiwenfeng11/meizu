@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "91830",
+      "name": "待付款",
+      "font_class": "daifukuan",
+      "unicode": "f013c",
+      "unicode_decimal": 983356
+    },
+    {
+      "icon_id": "201095",
+      "name": "3.1待发货",
+      "font_class": "31daifahuo",
+      "unicode": "f01c3",
+      "unicode_decimal": 983491
+    },
+    {
+      "icon_id": "577384",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "1332352",
+      "name": "个人中心页_我的收藏",
+      "font_class": "gerenzhongxinyewodeshoucang",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "2811146",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "3759633",
+      "name": "红包",
+      "font_class": "hongbao",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "13543866",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "22325852",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "29290560",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "100bd",
+      "unicode_decimal": 65725
+    }
+  ]
+}
