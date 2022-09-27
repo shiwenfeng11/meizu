@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			.box {width: 200px; height: 200px; margin: 20px 20px;}
+			.box1 {width: 200px; height: 200px; border: 1px solid black;}
+			/* 现在我要发明一个公共样式，border-1px，给盒子加响应式的1px边框 */
+					.border-1px { position: relative; }
+					.border-1px:before {
+						content: "";
+						position: absolute; left: 0; top: 0;
+						box-sizing: border-box;
+						border: 1px solid black;
+						transform-origin: left top;
+						pointer-events: none;
+					}
+					@media (-webkit-min-device-pixel-ratio: 1),(min-device-pixel-ratio: 1)  {
+						.border-1px:before { 
+							width: 100%; height: 100%;
+							transform: scale(1);
+						}
+					}
+					@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)  {
+						.border-1px:before { 
+							width: 200%; height: 200%;
+							transform: scale(0.5);
+						}
+					}
+					@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)  {
+						.border-1px:before { 
+							width: 300%; height: 300%;
+							transform: scale(0.333333);
+						}
+					}
+		</style>
+		<title>媒体查询</title>
+	</head>
+	<body>
+		<div class="box border-1px"></div>
+		<div class="box1"></div>
+	</body>
+</html>
